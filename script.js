@@ -14,22 +14,22 @@ const computerPaddle = document.querySelector('.computer-paddle');
 
 // Initial computer paddle y-position and y-velocity
 let computerPaddleYPosition = 0;
-let computerPaddleYVelocity = 0;
+let computerPaddleYVelocity = 1;
 
 // Update the pong world
 function update() {
 
     // Update the computer paddle's position
-    computerPaddleY = computerPaddleY + PADDLE_SPEED;
+    computerPaddleYPosition = computerPaddleYPosition + computerPaddleYVelocity;
 
     // If the computer paddle goes off the edge of the screen, bring it back
-    computerPaddleY = computerPaddleY % (GAME_AREA_HEIGHT - PADDLE_HEIGHT);
+    computerPaddleYPosition = computerPaddleYPosition % (GAME_AREA_HEIGHT - PADDLE_HEIGHT);
 
     // Apply the y-position 
-    computerPaddle.style.top = `${computerPaddleY}px`;
+    computerPaddle.style.top = `${computerPaddleYPosition}px`;
 }
 
-// Call the update() function everytime the browser is ready to re-render its content
+// Call the update() function everytime the browser is ready to re-render
 function loop() {
     update();
     window.requestAnimationFrame(loop);
