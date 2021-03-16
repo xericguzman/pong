@@ -24,4 +24,5 @@ move. Use this code as inspiriation for the code that you write to move the ball
 * Make the ball bounce off the paddles
 * Make the ball NOT bounce off the left and right walls, instead when the ball hits the left or right wall,
 reset its position to somewhere in the middle
+* Make the computer paddle (the right paddle) track the ball's position and always deflect the ball
 * Make the left paddle's position controllable through keyboard presses. But how do you know when the user presses a key? You can read about that [here](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key)!
