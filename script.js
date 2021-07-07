@@ -12,7 +12,7 @@ const BALL_SIZE = 20;
 // Get the computer paddle element
 const computerPaddle = document.querySelector('.computer-paddle');
 
-// Initial computer paddle y-position and y-velocity
+// The y-velocity of the computer paddle
 let computerPaddleYPosition = 0;
 let computerPaddleYVelocity = 1;
 
@@ -21,9 +21,6 @@ function update() {
 
     // Update the computer paddle's position
     computerPaddleYPosition = computerPaddleYPosition + computerPaddleYVelocity;
-
-    // If the computer paddle goes off the edge of the screen, bring it back
-    computerPaddleYPosition = computerPaddleYPosition % (GAME_AREA_HEIGHT - PADDLE_HEIGHT);
 
     // Apply the y-position 
     computerPaddle.style.top = `${computerPaddleYPosition}px`;
