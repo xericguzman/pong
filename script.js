@@ -29,9 +29,5 @@ function update() {
     computerPaddle.style.top = `${computerPaddleYPosition}px`;
 }
 
-// Call the update() function everytime the browser is ready to re-render
-function loop() {
-    update();
-    window.requestAnimationFrame(loop);
-}
-window.requestAnimationFrame(loop);
+// Call the update() function every 20ms
+setInterval(update, 20);
