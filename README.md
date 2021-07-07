@@ -12,7 +12,7 @@ Your task is to bring the game one step closer to completion by making the green
 ball bounce around the screen.
 
 To do this, read through the code that makes the paddle on the right (referred to as the 'computer paddle')
-move. Use this code as inspiriation for the code that you write to move the ball.
+move. Use this code as a reference for the code that you'll write to move the ball.
 
 **Hints:**
 
