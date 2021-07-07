@@ -16,8 +16,16 @@ move. Use this code as a reference for the code that you'll write to move the ba
 
 **Hints:**
 
-* To make the ball bounce off of a left or right wall, reverse its x-velocity (multiply by -1)
-* To make the ball bounce off of a top or bottom wall, reverse its y-velocity (multiply by -1)
+* Above the `update()` funciton, create variables to store the ball's x-position, y-position, x-velocity, and y-velocity
+* Each time `update()` is called
+    * increment the ball's x-position by the x-velocity
+    * increment the ball's y-position by the y-velocity
+    * update the ball's style so that its left edge is located at the x-position variable (in pixels)
+    * update the ball's style so that its top edge is located at the y-position variable (in pixels)
+    * add a conditional to detect if the ball is touching the left or right edge of the window 
+        * if it is, multiply the ball's x-velocity by -1
+    * add a conditional to detect if the ball is touching the top or bottom edge of the window
+        * if it is, multiply the ball's y-velocity by -1
 
 ## Reach tasks
 
