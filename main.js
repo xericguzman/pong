@@ -26,5 +26,5 @@ function update() {
     computerPaddle.style.top = `${computerPaddleYPosition}px`;
 }
 
-// Call the update() function every 20ms
-setInterval(update, 33);
+// Call the update() function every 35ms
+setInterval(update, 35);
