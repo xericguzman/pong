@@ -27,4 +27,4 @@ function update() {
 }
 
 // Call the update() function every 20ms
-setInterval(update, 20);
+setInterval(update, 33);
