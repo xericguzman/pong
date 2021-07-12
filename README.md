@@ -4,7 +4,7 @@
 
 In this assignment, you will be working entirely within the `main.js` file. 
 
-## Task
+## Task #1: Making the Ball Bounce
 
 Open `index.html` and notice how the right paddle is moving automatically.
 
@@ -27,10 +27,16 @@ move. Use this code as a reference for the code that you'll write to move the ba
     * add a conditional to detect if the ball is touching the top or bottom edge of the window
         * if it is, multiply the ball's y-velocity by -1
 
-## Reach tasks
+## Task #2: Implementing a Stretch Goal
+
+Your next task is to implement at least one stretch goal of your choice! 
+
+### Stretch Goals
 
 * Make the ball bounce off the paddles
 * Make the ball NOT bounce off the left and right walls, instead when the ball hits the left or right wall,
 reset its position to somewhere in the middle
 * Make the computer paddle (the right paddle) track the ball's position and always deflect the ball
 * Make the left paddle's position controllable through keyboard presses. But how do you know when the user presses a key? You can read about that [here](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key)!
+
+If you finish one stretch goal, keep going! Work towards creating a fully functional pong game!
