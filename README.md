@@ -1,8 +1,8 @@
 # Pong!
 
-> We're buliding the classic video game, Pong!
+> In this assignment, we'll be buliding part of the classic video game, Pong!
 
-In this assignment, you will be working entirely within the `main.js` file. 
+<img src="https://media1.tenor.com/images/40fac3c55a73e15ef82705ab5d51245d/tenor.gif?itemid=16894549"/>
 
 ## Task #1: Making the Ball Bounce
 
